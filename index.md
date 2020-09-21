@@ -27,6 +27,46 @@ Syntax highlighted code block
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Processing example
+
+PGraphics pg;
+
+
+<script>
+void setup() {
+  size(600, 600);
+  //frameRate(60);
+  pg = createGraphics(300, 600);
+  pg.beginDraw();
+  pg.background(0, 255, 0);
+  pg.fill(random(0,255), random(0,255), random(0,255));
+  pg.rect(50, 150, 200, 150);
+  pg.endDraw();
+}
+
+
+void draw() {
+  // rgba
+  g.colorMode(RGB, 1);
+  color rojo = color(1, 0, 0);
+  g.background(rojo);
+  g.colorMode(RGB, 255);
+  g.fill(0, 255, 0);
+  g.strokeWeight(5);
+  g.ellipse(56, 46, 55, 55);
+  miElipse();
+  image(pg, 300, 0);
+  println(frameRate);
+}
+
+void miElipse() {
+  g.pushStyle();
+  g.stroke(0, 255, 255);
+  g.fill(255, 0, 255, 155);
+  g.ellipse(mouseX, mouseY, 90, 40);
+  g.popStyle();
+}
+</script>
 
 ### Jekyll Themes
 
