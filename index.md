@@ -29,7 +29,7 @@ Syntax highlighted code block
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 ### Processing example
 ```javascript
-<script>
+
 PGraphics pg;
 
 void setup() {
@@ -65,7 +65,7 @@ void miElipse() {
   g.ellipse(mouseX, mouseY, 90, 40);
   g.popStyle();
 }
-</script>
+
 ```
 ### Jekyll Themes
 
