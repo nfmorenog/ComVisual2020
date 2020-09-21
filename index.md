@@ -28,17 +28,7 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 ### Processing example
----
-title: Fireworks
-layout: tutorial
-thumbnail: /examples/p5js/images/fireworks-2.png
-tagline: Ooh! Aah!
-sort-key: 100
-meta-title: P5.js Fireworks Example
-meta-description: Use P5.js to put on a fieworks show!
-meta-image: /examples/p5js/images/fireworks-1.png
-tags: [example, p5.js, javascript, es6]
----
+
 
 <div id="sketch-holder"></div>
 
