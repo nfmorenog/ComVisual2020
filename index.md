@@ -28,11 +28,9 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 ### Processing example
-
+<script>
 PGraphics pg;
 
-
-<script>
 void setup() {
   size(600, 600);
   //frameRate(60);
